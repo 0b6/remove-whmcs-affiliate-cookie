@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Remove WHMCSAffiliateID Cookie",
+  "version": "1.0",
+  "description": "阻止网站设置 WHMCSAffiliateID Cookie",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
